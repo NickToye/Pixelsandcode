@@ -1,0 +1,58 @@
+/* @override http://www.pixelsandcode.co.uk/maintenance/css/maintenance.css */
+
+* {margin:0;padding:0}
+/* mac hide \*/
+html,body{height:100%;width:100%;}
+/* end hide */
+body { 
+	background: #2c3233 url(../img/body.png) repeat;
+	text-align:center;
+	min-height:600px;/* for good browsers*/
+	min-width:600px;/* for good browsers*/
+	font-family: ITC Franklin Gothic, Helvetica, Arial, sans-serif;
+}
+#outer{
+	height:100%;
+	width:100%;
+	display:table;
+	vertical-align:middle;
+}
+#container {
+	text-align: center;
+	position:relative;
+	vertical-align:middle;
+	display:table-cell;
+	height: 600px;
+} 
+#inner {
+	width: 600px;
+	height: 600px;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#inner h1 {
+	background: url(../img/logo.png) no-repeat 50% 50%;
+	width: 600px;
+	height: 200px;
+	text-indent: -3000px;
+}
+
+#inner p {
+	padding: 0 30px;
+	line-height: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+}
+
+a {
+	color: #ba4e3e;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ccc;
+}
